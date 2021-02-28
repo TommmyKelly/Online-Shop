@@ -10,7 +10,7 @@ const Rating = ({ value, text, color }) => {
           <i
             style={{ color }}
             className={
-              value + 1 == rate + 0.5
+              value + 1 === rate + 0.5
                 ? "fas fa-star-half-alt"
                 : value >= rate
                 ? "fas fa-star"
